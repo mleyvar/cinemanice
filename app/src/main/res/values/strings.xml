@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cinema Nice</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Popular">Popular</string>
+    <string name="TopRated">Top Rated</string>
+    <string name="Upcoming">Upcoming</string>
+    <string name="ErrorGeneral">Excepcin ocurrida, intente mas tarde.</string>
+    <string name="Movies_not_found">No hay registros para mostrar.</string>
+    <string name="hint_search">Search</string>
+    <string name="close">Close</string>
+    <string name="Error_In_Service">Error en el servicio. Intente mas tarde.</string>
+    <string name="Error_DownloadImage">Error en la descarga de imagen</string>
+</resources>
