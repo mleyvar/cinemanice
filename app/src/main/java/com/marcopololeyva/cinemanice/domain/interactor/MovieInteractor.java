@@ -8,7 +8,7 @@ import com.google.gson.Gson;
 import com.marcopololeyva.cinemanice.R;
 
 import com.marcopololeyva.cinemanice.constant.Constant;
-import com.marcopololeyva.cinemanice.data.local.PopularLocal;
+import com.marcopololeyva.cinemanice.data.repository.DataRepository;
 import com.marcopololeyva.cinemanice.data.remote.PopularRemote;
 import com.marcopololeyva.cinemanice.model.ResultMovie;
 import com.marcopololeyva.cinemanice.model.response.PopularResponse;
@@ -67,11 +67,10 @@ public class MovieInteractor implements Handler.Callback  {
 
         try {
             //verificar tipo de conexion
-            PopularLocal dataLocal = new PopularLocal();
+            DataRepository dataLocal = new DataRepository();
 
                if (isconectionNetwork) {
 
-                Log.e("OkHttp", "==============================>>  CONECCION RES OK: " );
                 PopularRemote    data = new PopularRemote();
 
                         data.callPopularMovies(page)
@@ -91,12 +90,7 @@ public class MovieInteractor implements Handler.Callback  {
                                         presenter.onError(ERROR_MOVIES_NOT_FOUND, App.getContext().getString(R.string.Movies_not_found));
                                     }else{
 
-                                        Log.e("OkHttp", "==============================>>  RESPONSE :    "+ new Gson().toJson(response.getResults()) );
-
-
-                                        dataLocal.removeMoviesByPage(page,type);
-
-                                        dataLocal.addMovies(page, response.getResults(), new PopularLocal.PopularLocalInterface() {
+                                        dataLocal.addMovies(type,page, response.getResults(), new DataRepository.PopularLocalInterface() {
                                             @Override
                                             public void onSuccess(ArrayList<ResultMovie> res) {
 
@@ -109,7 +103,6 @@ public class MovieInteractor implements Handler.Callback  {
 
                                             @Override
                                             public void onSuccessAddMovies() {
-                                                dataLocal.updateMoviesPage(page, type);
                                                 presenter.onSuccess(response.getResults(), page,type);
                                             }
 
@@ -147,12 +140,9 @@ public class MovieInteractor implements Handler.Callback  {
 
 
             } else {
-
-                Log.e("OkHttp", "==============================>>  CONECCION LOCAL: " );
-                dataLocal.getMovies(page, new PopularLocal.PopularLocalInterface() {
+                dataLocal.getMovies(page, new DataRepository.PopularLocalInterface() {
                         @Override
                         public void onSuccess(ArrayList<ResultMovie> res) {
-                            Log.e("OkHttp", "==============================>>  getMovies from Interactor susses: " );
                             presenter.onSuccessDownload(res,page,type);
                         }
 
@@ -187,11 +177,10 @@ public class MovieInteractor implements Handler.Callback  {
 
         try {
             //verificar tipo de conexion
-            PopularLocal dataLocal = new PopularLocal();
+            DataRepository dataLocal = new DataRepository();
 
             if (isconectinNetwork) {
 
-                Log.e("OkHttp", "==============================>>  CONECCION RES OK: " );
                 PopularRemote    data = new PopularRemote();
 
                 data.callTopRatedMovies(page)
@@ -211,10 +200,7 @@ public class MovieInteractor implements Handler.Callback  {
                                     presenter.onError(ERROR_MOVIES_NOT_FOUND, App.getContext().getString(R.string.Movies_not_found));
                                 }else{
 
-                                    Log.e("OkHttp", "==============================>>  RESPONSE :    "+ new Gson().toJson(response.getResults()) );
-                                    dataLocal.removeMoviesByPage(page,type);
-
-                                    dataLocal.addMovies(page, response.getResults(), new PopularLocal.PopularLocalInterface() {
+                                    dataLocal.addMovies(type,page, response.getResults(), new DataRepository.PopularLocalInterface() {
                                         @Override
                                         public void onSuccess(ArrayList<ResultMovie> res) {
 
@@ -227,7 +213,6 @@ public class MovieInteractor implements Handler.Callback  {
 
                                         @Override
                                         public void onSuccessAddMovies() {
-                                            dataLocal.updateMoviesPage(page, type);
                                             presenter.onSuccess(response.getResults(), page, type);
                                         }
 
@@ -265,13 +250,9 @@ public class MovieInteractor implements Handler.Callback  {
 
 
             } else {
-
-                Log.e("OkHttp", "==============================>>  CONECCION LOCAL: " );
-                dataLocal.getMovies(page, new PopularLocal.PopularLocalInterface() {
+                dataLocal.getMovies(page, new DataRepository.PopularLocalInterface() {
                     @Override
                     public void onSuccess(ArrayList<ResultMovie> res) {
-                        Log.e("OkHttp", "==============================>>  getMovies from Interactor susses: " );
-
                         presenter.onSuccess(res, page, type);
                     }
 
@@ -313,11 +294,10 @@ public class MovieInteractor implements Handler.Callback  {
 
         try {
             //verificar tipo de conexion
-            PopularLocal dataLocal = new PopularLocal();
+            DataRepository dataLocal = new DataRepository();
 
             if (isconectinNetwork) {
 
-                Log.e("OkHttp", "==============================>>  CONECCION RES OK: " );
                 PopularRemote    data = new PopularRemote();
 
                 data.callUpComingMovies(page)
@@ -336,11 +316,7 @@ public class MovieInteractor implements Handler.Callback  {
                                 if (response.getResults().size()==0){
                                     presenter.onError(ERROR_MOVIES_NOT_FOUND, App.getContext().getString(R.string.Movies_not_found));
                                 }else{
-
-                                    Log.e("OkHttp", "==============================>>  RESPONSE :    "+ new Gson().toJson(response.getResults()) );
-                                    dataLocal.removeMoviesByPage(page,type);
-
-                                    dataLocal.addMovies(page, response.getResults(), new PopularLocal.PopularLocalInterface() {
+                                    dataLocal.addMovies(type,page, response.getResults(), new DataRepository.PopularLocalInterface() {
                                         @Override
                                         public void onSuccess(ArrayList<ResultMovie> res) {
 
@@ -353,7 +329,6 @@ public class MovieInteractor implements Handler.Callback  {
 
                                         @Override
                                         public void onSuccessAddMovies() {
-                                            dataLocal.updateMoviesPage(page, type);
                                             presenter.onSuccess(response.getResults(), page, type);
                                         }
 
@@ -385,19 +360,11 @@ public class MovieInteractor implements Handler.Callback  {
                             }
                         });
 
-
-
-
-
-
             } else {
 
-                Log.e("OkHttp", "==============================>>  CONECCION LOCAL: " );
-                dataLocal.getMovies(page, new PopularLocal.PopularLocalInterface() {
+                dataLocal.getMovies(page, new DataRepository.PopularLocalInterface() {
                     @Override
                     public void onSuccess(ArrayList<ResultMovie> res) {
-                        Log.e("OkHttp", "==============================>>  getMovies from Interactor susses: " );
-
                         presenter.onSuccess(res, page, type);
                     }
 
@@ -416,11 +383,7 @@ public class MovieInteractor implements Handler.Callback  {
                     }
                 },type);
 
-
             }
-
-
-
         }catch(Exception ex){
             LogMon.Log(ex,this.getClass().getSimpleName() + "-" + new Throwable().getStackTrace()[0].getMethodName());
             presenter.onError(ERROR_GENERAL,"");
@@ -447,7 +410,6 @@ public class MovieInteractor implements Handler.Callback  {
                     .switchMapSingle(new Function<String, Single<PopularResponse>>() {
                         @Override
                         public Single<PopularResponse> apply(String s) throws Exception {
-                            Log.e("OkHttp", "==============================>> QUERY SERVICE: " + s);
                             return data.callPopularSearchMovies(s, page)
                                     .subscribeOn(Schedulers.io())
                                     .observeOn(AndroidSchedulers.mainThread());
@@ -463,9 +425,9 @@ public class MovieInteractor implements Handler.Callback  {
         }else{
             //Local
 
-            PopularLocal dataLocal = new PopularLocal();
+            DataRepository dataLocal = new DataRepository();
 
-            dataLocal.getMoviesQuery(cad, new PopularLocal.PopularLocalInterface() {
+            dataLocal.getMoviesQuery(cad, new DataRepository.PopularLocalInterface() {
                 @Override
                 public void onSuccess(ArrayList<ResultMovie> res) {
                     presenter.onSuccess(res, page, Constant.SEARCH_MOVIES);
@@ -507,13 +469,8 @@ public class MovieInteractor implements Handler.Callback  {
                     }else{
 
 
-                        PopularLocal dataLocal = new PopularLocal();
-
-
-                        Log.e("OkHttp", "==============================>>  RESPONSE :    "+ new Gson().toJson(response.getResults()) );
-                        dataLocal.removeMoviesByPage(page, Constant.SEARCH_MOVIES);
-
-                        dataLocal.addMovies(page, response.getResults(), new PopularLocal.PopularLocalInterface() {
+                        DataRepository dataLocal = new DataRepository();
+                        dataLocal.addMovies(Constant.SEARCH_MOVIES,page, response.getResults(), new DataRepository.PopularLocalInterface() {
                             @Override
                             public void onSuccess(ArrayList<ResultMovie> res) {
 
@@ -526,7 +483,6 @@ public class MovieInteractor implements Handler.Callback  {
 
                             @Override
                             public void onSuccessAddMovies() {
-                                dataLocal.updateMoviesPage(page,  Constant.SEARCH_MOVIES);
                                 presenter.onSuccess(response.getResults(), page, Constant.SEARCH_MOVIES);
                             }
 
@@ -573,7 +529,7 @@ public class MovieInteractor implements Handler.Callback  {
 
         responseDownloadImage=response;
         pageDownloadImage=page;
-        typeDownloadImage=page;
+        typeDownloadImage=type;
 
         int NUMBER_OF_CORES = Runtime.getRuntime().availableProcessors();
 
@@ -588,7 +544,9 @@ public class MovieInteractor implements Handler.Callback  {
         int th=0;
         int withImages=0;
 
-        PopularLocal dataLocal = new PopularLocal();
+        curCountImage=0;
+
+        DataRepository dataLocal = new DataRepository();
 
         for (ResultMovie r : response) {
 
@@ -601,19 +559,18 @@ public class MovieInteractor implements Handler.Callback  {
             }
 
         }
-
-
         dataLocal.closeDB();
         totImageToDownload = responseDownloadImage.size() - withImages;
+
+        if(totImageToDownload==0){
+            presenter.onSuccessDownload(responseDownloadImage,pageDownloadImage,typeDownloadImage);
+        }
     }
 
     @Override
     public boolean handleMessage(Message msg) {
         curCountImage++;
-
-        Log.e("OkHttp", "==============================>>  MESSAGE HANDLER:  "+ msg );
-
-        if (curCountImage == totImageToDownload){
+        if (curCountImage >= totImageToDownload){
             presenter.onSuccessDownload(responseDownloadImage,pageDownloadImage,typeDownloadImage);
         }
         return true;

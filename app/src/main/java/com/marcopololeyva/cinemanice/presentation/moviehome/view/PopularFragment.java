@@ -45,15 +45,20 @@ public class PopularFragment extends Fragment implements MovieContract.ViewPopul
 
     LayoutInflater inflater;
     ViewGroup container;
+    static int posFragment;
 
 
 
-    public static PopularFragment newInstance(Bundle args) {
+    public static PopularFragment newInstance(int positionFragment, Bundle args) {
+        posFragment=positionFragment;
         PopularFragment fragment = new PopularFragment();
         fragment.setArguments(args);
         return fragment;
     }
 
+    public int getPositionFragment(){
+        return posFragment;
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -67,8 +72,8 @@ public class PopularFragment extends Fragment implements MovieContract.ViewPopul
         ButterKnife.bind(this,view);
         adapter = new MoviesAdapter ( getActivity(), getFragmentManager(), getContext(), movieList);
         presenter = new PopularPresenter(this);
+        conexionNetwork = ((HomeActivity)getActivity()).getConexionNetwork();
 
-       // recycler_view = view.findViewById(R.id.recycler_view_popular);
 
         RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getContext(), 2);
         recycler_view.setLayoutManager(mLayoutManager);
@@ -81,18 +86,17 @@ public class PopularFragment extends Fragment implements MovieContract.ViewPopul
             getData(0);
             App.getmPreference().setBooleanData("First",false);
         }
-
         return view;
     }
 
 
     public void getData(int pos){
 
-        conexionNetwork=  (Conexion) getArguments().getSerializable(Constant.BUNDLES_CONEXION_NETWORK);
+        conexionNetwork = ((HomeActivity)getActivity()).getConexionNetwork();
 
-        if (presenter == null ) presenter = new PopularPresenter(this);
+        if (presenter == null) presenter = new PopularPresenter(this);
         App.showLoadDialog(getFragmentManager());
-        switch (pos){
+        switch (pos) {
             case 0:
                 presenter.getPopularMovies(1, conexionNetwork.isConnected());
                 break;
@@ -104,9 +108,12 @@ public class PopularFragment extends Fragment implements MovieContract.ViewPopul
                 break;
         }
 
+
     }
 
     public void getDataSearch(String cad){
+        App.showLoadDialog(getFragmentManager());
+        conexionNetwork=  (Conexion) getArguments().getSerializable(Constant.BUNDLES_CONEXION_NETWORK);
         presenter.getDataSearch(cad,1,conexionNetwork.isConnected());
     }
 
@@ -121,18 +128,26 @@ public class PopularFragment extends Fragment implements MovieContract.ViewPopul
     public void onResume() {
         super.onResume();
         App.setWhichFragment(this);
+
     }
 
     @Override
     public void onSuccessPopularMovies(ArrayList<ResultMovie> response,int page, int type) {
         App.dissmissLoad();
-            if (response.size() > 0) {
-                movieList = response;
-                adapter.setMovieList(movieList);
-                recycler_view.setAdapter(adapter);
-                adapter.notifyDataSetChanged();
 
-            }
+        if(type==Constant.SEARCH_MOVIES){
+            ((HomeActivity)getActivity()).setKeyboardVisibility(false);
+        }
+        if (response.size() > 0) {
+            movieList = response;
+            adapter = new MoviesAdapter ( getActivity(), getFragmentManager(), getContext(), movieList);
+            adapter.setMovieList(movieList);
+            recycler_view.setAdapter(adapter);
+            adapter.notifyDataSetChanged();
+
+        }else{
+            Toast.makeText(getActivity(), getActivity().getString(R.string.Movies_not_found), Toast.LENGTH_LONG).show();
+        }
     }
 
     @Override

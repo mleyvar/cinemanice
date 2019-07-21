@@ -29,32 +29,25 @@ public class PopularPresenter implements MovieContract.PopularPresenter {
     }
 
 
-
-
     @Override
     public void getPopularMovies( int page,boolean isconectinNetwork) {
-        Log.e("OkHttp", "==============================>>  GET POPULAR MOVIES: " );
         model.getPopularMovies( page, isconectinNetwork, Constant.POPULAR_MOVIES);
     }
 
     @Override
     public void getTopRatedMovies(int page, boolean isconectinNetwork) {
-        Log.e("OkHttp", "==============================>>  GET getTopRatedMovies MOVIES: " );
         model.getTopRatedMovies( page, isconectinNetwork, Constant.TOP_RATED_MOVIES);
     }
 
     @Override
     public void getUpComingMovies(int page, boolean isconectinNetwork) {
-        Log.e("OkHttp", "==============================>>  GET getUpComingMovies MOVIES: " );
         model.getUpCommingMovies( page, isconectinNetwork, Constant.UPCOMING_MOVIES);
     }
-
 
     @Override
     public void getDataSearch(String cad, int page, boolean isconectinNetwork) {
         model.getDataSearch(cad,page, isconectinNetwork);
     }
-
 
     @Override
     public void onError(int errorCode, String message) {

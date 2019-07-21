@@ -4,9 +4,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 import com.marcopololeyva.cinemanice.model.Dates;
 import com.marcopololeyva.cinemanice.model.ResultMovie;
-
 import java.util.ArrayList;
-import java.util.List;
 
 public class UpComingResponse {
     @SerializedName("results")

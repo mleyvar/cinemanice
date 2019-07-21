@@ -21,7 +21,7 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.Target;
 import com.marcopololeyva.cinemanice.R;
-import com.marcopololeyva.cinemanice.data.local.PopularLocal;
+import com.marcopololeyva.cinemanice.data.repository.DataRepository;
 import com.marcopololeyva.cinemanice.model.ResultMovie;
 import com.marcopololeyva.cinemanice.platform.custom.DetailDialog;
 import com.marcopololeyva.cinemanice.platform.network.Conexion;
@@ -36,11 +36,10 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
     private List<ResultMovie> movieList;
     Activity activity;
     FragmentManager fm;
-    PopularLocal localDB;
+    DataRepository localDB;
 
 
     public void setMovieList(List<ResultMovie> movieList){
-
         this.movieList=movieList;
     }
 
@@ -65,7 +64,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
         this.movieList = movieList;
         this.activity=activity;
         this.fm=fm;
-        localDB = new PopularLocal();
+        localDB = new DataRepository();
     }
 
     @Override
@@ -87,11 +86,6 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
         if (Conexion.getInstance(activity).isConnected()){
 
             holder.progressBar.setVisibility(View.VISIBLE);
-/*
-            .placeholder(R.drawable.placeholder) //placeholder
-                    .error(R.drawable.error) //error
-
-            */
             Glide.with(mContext)
                     .load(BASE_IMAGE_URL + movie.getPoster_path())
                     .listener(new RequestListener<Drawable>() {
@@ -105,9 +99,6 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
                         public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
                             holder.progressBar.setVisibility(View.GONE);
                             holder.imgThumbnail.setImageDrawable(resource);
-
-                            //localDB.updateImageFromMovie(  movie.getId(), ConverterGen.convertBitmapToArrayBytes( (BitmapDrawable)resource ));
-
                             return false;
                         }
 
@@ -122,8 +113,6 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
 
 
         }else{
-
-            Log.e("OkHttp", "==============================>>  Carga item Local: " );
             holder.progressBar.setVisibility(View.VISIBLE);
 
             Glide.with(mContext)
@@ -148,10 +137,6 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
                             .override(800,900)
                     )
                     .into(holder.imgThumbnail);
-
-
-
-//            Glide.with(mContext).load(  ImageCache.getBitmapFromMemCache(movie.getPoster_path())).into(holder.imgThumbnail);
         }
 
 

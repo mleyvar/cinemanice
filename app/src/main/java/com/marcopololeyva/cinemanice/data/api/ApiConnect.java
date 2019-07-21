@@ -12,8 +12,6 @@ public class ApiConnect {
 
 
     public static ApiService getApiService() {
-
-        Log.e("OkHttp", "==============================>> BASE_URL: " + BASE_URL);
         return RetrofitClient.getClient(BASE_URL).create(ApiService.class);
 
 

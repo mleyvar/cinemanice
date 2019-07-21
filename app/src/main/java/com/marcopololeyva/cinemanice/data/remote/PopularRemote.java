@@ -1,8 +1,5 @@
 package com.marcopololeyva.cinemanice.data.remote;
 
-
-import android.util.Log;
-
 import com.marcopololeyva.cinemanice.data.api.ApiConnect;
 import com.marcopololeyva.cinemanice.data.api.ApiService;
 import com.marcopololeyva.cinemanice.model.response.PopularResponse;

@@ -3,9 +3,7 @@ package com.marcopololeyva.cinemanice.model.response;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 import com.marcopololeyva.cinemanice.model.ResultMovie;
-
 import java.util.ArrayList;
-import java.util.List;
 
 public class TopRatedResponse {
     @SerializedName("page")

@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AvailableLibraryUpdateStorage">
@@ -196,125 +196,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fa202a5-6a49-421d-9147-74c61185ea0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/ContactsAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/MoviesAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/PagerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/constant/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/ApiConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/ApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/Callback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/RetrofitClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/local/PopularLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/preference/CinemaNicePreference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/remote/PopularRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/repository/DataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/MovieInteractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/Dates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/ResultMovie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/PopularResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/TopRatedResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/UpComingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/DetailDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/GridSpacingItemDecoration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/LoadDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/di/ActivityScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/di/ApplicationScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/di/CinemaNiceComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/di/CinemaNiceModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/error/CinemaNiceErrorManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/monitor/LogMon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/Conexion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/DownloadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/base/BaseActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/base/BaseFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/home/view/HomeActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/MovieContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/PopularPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/view/PopularFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/splash/view/SplashActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/util/converter/ConverterGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/pulse.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/error_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ico_clear.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ico_close.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ico_left_base.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ico_left_base_black.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ico_search.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ico_search_white.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ico_start.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ico_clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ico_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ico_left_base.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ico_left_base_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ico_search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ico_search_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ico_start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ico_clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ico_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ico_left_base.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ico_left_base_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ico_search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ico_search_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ico_start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ico_clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ico_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ico_left_base.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ico_left_base_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ico_search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ico_search_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ico_start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ico_clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ico_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ico_left_base.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ico_left_base_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ico_search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ico_search_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ico_start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/detail_movie.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_popular.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/load.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_9_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_9_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_24_0_GA_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_23_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_powermock_powermock_api_mockito2_2_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_powermock_powermock_api_support_2_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_powermock_powermock_core_2_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_powermock_powermock_module_junit4_2_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_powermock_powermock_module_junit4_common_2_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_powermock_powermock_reflect_2_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/PopularPresenterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/HomeActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/SplashActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/entity/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/realm/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/exception/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/request/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/source/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/cache/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/Handler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/UseCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/entity/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/service/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/view/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/home/presenter/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presenter/formatters/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/splash/presenter/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presenter/presenters/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/util/formatters/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/ContactsAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/MoviesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/MoviesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/PagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/PagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/ApiConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/ApiConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/ApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/ApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/Callback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/local/PopularLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/repository/DataRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/preference/CinemaNicePreference.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/preference/CinemaNicePreference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/remote/PopularRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/remote/PopularRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/MovieInteractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/MovieInteractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/PopularResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/PopularResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/TopRatedResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/TopRatedResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/UpComingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/UpComingResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/monitor/LogMon.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/monitor/LogMon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/DownloadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/DownloadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/base/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/base/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/home/view/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/home/view/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/PopularPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/PopularPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/view/PopularFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/view/PopularFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/root/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/root/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/util/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/background_splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/background_splash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/background_splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/background_splash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/background_splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/background_splash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/background_splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/background_splash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/background_splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/background_splash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/background_splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/background_splash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/util/converter/ConverterGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/util/converter/ConverterGen.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -342,55 +268,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/MoviesAdapter.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/home/view/HomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="153" column="42" selection-start-line="153" selection-start-column="42" selection-end-line="153" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/GridSpacingItemDecoration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/MovieInteractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-154">
-              <caret line="573" selection-start-line="573" selection-end-line="573" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/repository/DataRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/ResultMovie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="475">
+              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -399,26 +280,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/local/PopularLocal.java">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/PopularPresenterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="204" column="5" lean-forward="true" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#1570#1571#0" expanded="true" />
-                <element signature="e#1630#1631#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/Dates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="582">
+              <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -427,22 +292,93 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/TopRatedResponse.java">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="696">
+              <caret line="110" selection-start-line="110" selection-end-line="110" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/DetailDialog.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/view/PopularFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="83" column="41" lean-forward="true" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="41" />
+            <state relative-caret-position="772">
+              <caret line="158" selection-start-line="158" selection-end-line="158" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2010#2011#0" expanded="true" />
+                <element signature="e#2044#2045#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/PopularPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/MovieContract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/splash/view/SplashActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="42" column="40" selection-start-line="33" selection-start-column="8" selection-end-line="42" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/root/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1976">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/util/converter/ConverterGen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/marcopololeyva/cinemanice/ExampleUnitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -460,23 +396,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rec</find>
-      <find>setData</find>
-      <find>MovieFragment</find>
-      <find>comm</find>
-      <find>io.reactivex:rxjava:2.1.9</find>
-      <find>rxjavaVersion</find>
-      <find>obser</find>
-      <find>publishSubject</find>
-      <find>contactsList</find>
-      <find>apiService</find>
       <find>callPopularMoviesSearch</find>
       <find>BASE_URL</find>
       <find>fragment</find>
-      <find>ContactsAdapter</find>
       <find>genreIds</find>
       <find>preference</find>
-      <find>onSuccessPopularMovies</find>
       <find>onSuccess</find>
       <find>Image save ok</find>
       <find>progressBar</find>
@@ -490,6 +414,18 @@
       <find>ErrorManager</find>
       <find>ImageCache</find>
       <find>TopRatedResponse</find>
+      <find>Search query</find>
+      <find>onSuccessPopularMovies</find>
+      <find>POSITION TAB</find>
+      <find>PagerAdapter</find>
+      <find>conexionNetwork</find>
+      <find>guardia</find>
+      <find>Callback</find>
+      <find>ContactsAdapter</find>
+      <find>mAdapter</find>
+      <find>publishSubject</find>
+      <find>recyclerView</find>
+      <find>OkHttp</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app</dir>
@@ -501,26 +437,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_top_rated.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_upcomming.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/PagerAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/view/TopRatedFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/view/UpcomingFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/detail_movie.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/remote/PopularRemote.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/realm/Movies.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/monitor/LogMon.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/ContactsAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/PopularResponse.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/TopRatedResponse.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/UpComingResponse.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/preference/AlphaPreference.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/preference/CinemaNicePreference.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/cache/ImageCache.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/TopRatedPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/UpComingPresenter.java" />
@@ -529,7 +452,6 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/UpComingInteractor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/DownloadImage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/util/converter/ConverterGen.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/service/SaveLocalImageService.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_popular.xml" />
@@ -537,25 +459,39 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/PopularInteractor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/TopRatedInteractor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/MovieContract.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/root/App.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/view/PopularFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/PopularPresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/home/view/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/base/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/DownloadFile.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/Conexion.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/error/CinemaNiceErrorManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/di/CinemaNiceComponent.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/LoadDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/DetailDialog.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/MoviesAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/ResultMovie.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/MovieInteractor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/root/App.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/monitor/LogMon.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/base/BaseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/local/PopularLocal.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/ApiService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/remote/PopularRemote.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/preference/CinemaNicePreference.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/repository/PopularLocal.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/MovieInteractor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/PopularResponse.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/TopRatedResponse.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/UpComingResponse.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/DownloadFile.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/PopularPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/view/PopularFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/util/converter/ConverterGen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/PagerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/repository/DataRepository.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/ApiConnect.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/MoviesAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/home/view/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/PopularPresenterTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="13" />
     <option name="y" value="63" />
     <option name="width" value="1910" />
@@ -567,9 +503,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -615,6 +550,24 @@
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="marcopololeyva" type="462c0819:PsiDirectoryNode" />
               <item name="cinemanice" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinemanice" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="marcopololeyva" type="462c0819:PsiDirectoryNode" />
+              <item name="cinemanice" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinemanice" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="marcopololeyva" type="462c0819:PsiDirectoryNode" />
+              <item name="cinemanice" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -625,7 +578,17 @@
               <item name="marcopololeyva" type="462c0819:PsiDirectoryNode" />
               <item name="cinemanice" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinemanice" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="marcopololeyva" type="462c0819:PsiDirectoryNode" />
+              <item name="cinemanice" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="preference" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cinemanice" type="1abcf292:AndroidViewProjectNode" />
@@ -950,6 +913,46 @@
             <path>
               <item name="cinemanice" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinemanice" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="marcopololeyva" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinemanice" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="marcopololeyva" type="462c0819:PsiDirectoryNode" />
+              <item name="cinemanice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinemanice" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="marcopololeyva" type="462c0819:PsiDirectoryNode" />
+              <item name="cinemanice" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinemanice" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="marcopololeyva" type="462c0819:PsiDirectoryNode" />
+              <item name="cinemanice" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="moviehome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinemanice" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
@@ -977,6 +980,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -990,10 +994,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.marcopololeyva.cinemanice.model.response" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.marcopololeyva.cinemanice.presentation.moviehome" />
       <recent name="com.marcopololeyva.cinemanice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -1006,8 +1011,8 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.marcopololeyva.cinemanice.data.preference" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.marcopololeyva.cinemanice.model.response" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1098,11 +1103,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1055" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="1055" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22222222" />
-      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49945828" visible="true" weight="0.22222222" />
+      <window_info id="Structure" order="2" sideWeight="0.5005417" side_tool="true" weight="0.22222222" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
@@ -1113,13 +1119,13 @@
       <window_info anchor="bottom" id="Run" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.6706392" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.46153846" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32975295" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.31823084" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.31744313" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Logcat" order="10" weight="0.8201517" />
+      <window_info anchor="bottom" id="Logcat" order="10" weight="0.86998916" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32959402" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -1129,90 +1135,62 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/anim_loading_white.json" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/load.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/TopRatedInteractor.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/UpComingInteractor.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/SearchInteractor.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/service/SaveLocalImageService.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/cache/ImageCache.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1261">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="304">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/realm/Movies.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/ContactsAdapter.java">
+    <entry file="file:///zAndroidSDK/sources/android-28/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="298">
+          <caret line="1356" column="16" selection-start-line="1356" selection-start-column="16" selection-end-line="1356" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b030a03fe6c628a583c3f8ed6ebb733b/jars/classes.jar!/android/support/v7/widget/RecyclerView.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
-          <caret line="634" column="16" selection-start-line="634" selection-start-column="16" selection-end-line="634" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/PopularResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <caret line="6085" column="26" selection-start-line="6085" selection-start-column="26" selection-end-line="6085" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#239868#239869#0" expanded="true" />
+            <element signature="e#239924#239925#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/UpComingResponse.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/Callback.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/RetrofitClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/preference/CinemaNicePreference.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/ApiService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/TopRatedPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/UpComingPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -1223,235 +1201,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml">
-      <provider editor-type-id="android-designer2" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/ContactsAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/MoviesAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding>
-            <element signature="e#496#517#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_popular.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/anim_loading_white.json" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/load.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/TopRatedInteractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getTopRatedMovies#0;class#TopRatedInteractor#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/UpComingInteractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="253" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getUpCommingMovies#0;class#UpComingInteractor#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/SearchInteractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getDataSearch#0;class#SearchInteractor#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/util/converter/ConverterGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="55" />
+        <state relative-caret-position="2698">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/root/App.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/PagerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="-102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#2172#2173#0" expanded="true" />
+            <element signature="e#2227#2228#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/splash/view/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="42" column="40" selection-start-line="33" selection-start-column="8" selection-end-line="42" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/view/PopularFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/home/view/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2786">
-          <caret line="224" selection-start-line="224" selection-end-line="224" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/base/BaseFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/service/SaveLocalImageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/base/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/DownloadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/Conexion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/MovieContract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/PopularPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="60" column="51" lean-forward="true" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/monitor/LogMon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/error/CinemaNiceErrorManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#433#469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/di/CinemaNiceModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/di/CinemaNiceComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/di/ApplicationScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/di/ActivityScope.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/api/ApiConnect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/LoadDialog.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/remote/PopularRemote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/preference/CinemaNicePreference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/repository/DataRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/MovieInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="572" selection-start-line="572" selection-end-line="572" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/PopularResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/TopRatedResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/UpComingResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/Dates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/ResultMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/DetailDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="83" column="41" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1468,98 +1339,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/DetailDialog.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/LoadDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="83" column="41" lean-forward="true" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="41" />
+        <state relative-caret-position="392">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/cache/ImageCache.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/di/ActivityScope.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/MoviesAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/di/ApplicationScope.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="153" column="42" selection-start-line="153" selection-start-column="42" selection-end-line="153" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/ResultMovie.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/di/CinemaNiceComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/Dates.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/di/CinemaNiceModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="114">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/error/CinemaNiceErrorManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/monitor/LogMon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/Conexion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/model/response/TopRatedResponse.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/DownloadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/base/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="74" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/base/BaseFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/domain/interactor/MovieInteractor.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/home/view/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="573" selection-start-line="573" selection-end-line="573" />
+        <state relative-caret-position="475">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/repository/DataRepository.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/MovieContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/local/PopularLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="204" column="5" lean-forward="true" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+        <state relative-caret-position="532">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1630#1631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/splash/view/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="42" column="40" selection-start-line="33" selection-start-column="8" selection-end-line="42" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/root/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/marcopololeyva/cinemanice/ExampleUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/util/converter/ConverterGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/view/PopularFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/PopularPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/PopularPresenterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,10 +4,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.util.Log;
-
+import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
-
 
 public class PagerAdapter extends FragmentPagerAdapter {
     private final List<Fragment> mFragmentList = new ArrayList<>();
@@ -17,6 +16,7 @@ public class PagerAdapter extends FragmentPagerAdapter {
         super(manager);
     }
 
+
     public void setItem(int position, Fragment element) {
         mFragmentList.set(position, element);
     }
@@ -24,28 +24,14 @@ public class PagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        Log.e("OkHttp", "==============================>>  POSITION IN FRAGMENT:     "+ position );
         return mFragmentList.get(position);
     }
 
-/*
+
     @Override
-    public Fragment getItem(int position) {
-        Log.e("OkHttp", "==============================>>  POSITION IN FRAGMENT:     "+ position );
-        switch (position){
-            case 0:
-                PopularFragment tab1=new PopularFragment();
-                return tab1;
-            case 1:
-                TopRatedFragment tab2=new TopRatedFragment();
-                return tab2;
-            case 2:
-                UpcomingFragment tab3=new UpcomingFragment();
-                return tab3;
-        }
-        return null;
+    public void setPrimaryItem(ViewGroup container, int position, Object object) {
+        super.setPrimaryItem(container, position, object);
     }
-*/
 
 
 
@@ -53,6 +39,7 @@ public class PagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         return mFragmentList.size();
+     //   return 3;
     }
 
     public void addFragment(Fragment fragment, String title) {

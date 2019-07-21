@@ -6,12 +6,7 @@ public class LogMon {
 
 
     public static void Log(Throwable ex, String module){
-
-        Log.e("OkHttp", "==============================>>  MONITOR MODULE : "+ module + "  ERROR:  "+  ex.getMessage() );
-        Log.e("OkHttp", "==============================>>  STACK <ini>: " );
-        ex.printStackTrace();
-        Log.e("OkHttp", "==============================>>  STACK <end>: " );
-
+        Log.e("OkHttp", "==============================>>  MONITOR MODULE : "+ module + "  ERROR:  ", ex );
         // crashalitics
 
 

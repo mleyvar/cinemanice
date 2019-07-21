@@ -3,7 +3,7 @@ package com.marcopololeyva.cinemanice.platform.network;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
-import com.marcopololeyva.cinemanice.data.local.PopularLocal;
+import com.marcopololeyva.cinemanice.data.repository.DataRepository;
 import com.marcopololeyva.cinemanice.root.App;
 import com.marcopololeyva.cinemanice.util.converter.ConverterGen;
 import java.io.IOException;
@@ -36,32 +36,13 @@ public class DownloadFile implements Runnable {
     @Override
     public void run() {
 
-        Log.e("OkHttp", "==============================>>  Download Image: " +imageUrl + "    Thread: " + numTread);
-
-
         byte[] img=  getBitmap(imageUrl);
-
-        if (img==null){
-            Log.e("OkHttp", "==============================>>  IMAGE NULL: "  + "    Thread: " + numTread);
-        }else{
-            Log.e("OkHttp", "==============================>>  IMAGE Downlaod OK: " + img.length  + "    Thread: " + numTread);
-        }
-
-
-
-        Log.e("OkHttp", "==============================>>  ADD LIST: "+  "    Thread: " + numTread );
-        Log.e("OkHttp", "==============================>>  ADD LIST SIZE: "+ img.length + "    Thread: " + numTread );
 
         if (img != null){
             App.addImage(img);
-            PopularLocal dataLocal = new PopularLocal();
+            DataRepository dataLocal = new DataRepository();
             dataLocal.updateImageFromMovie(id, img);
             dataLocal.closeDB();
-
-
-
-        }else{
-            Log.e("OkHttp", "==============================>>  ADD LIST NULLLL: "+  "    Thread: " + numTread );
         }
         sendMessage(numTread, "FINISH"  + "    Thread: " + numTread);
     }
@@ -76,7 +57,6 @@ public class DownloadFile implements Runnable {
         byte[] bitmap = null;
 
         try {
-            Log.e("OkHttp", "==============================>>  Inicio descarga  0 : " +urlString  + "    Thread: " + numTread);
             URL url=new URL(urlString);
             HttpURLConnection connection=(HttpURLConnection)url.openConnection();
             connection.setRequestMethod("GET");

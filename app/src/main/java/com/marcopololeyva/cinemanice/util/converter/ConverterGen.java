@@ -2,6 +2,7 @@ package com.marcopololeyva.cinemanice.util.converter;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
+import android.util.Log;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

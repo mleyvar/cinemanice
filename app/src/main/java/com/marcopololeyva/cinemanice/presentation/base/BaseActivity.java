@@ -1,5 +1,6 @@
 package com.marcopololeyva.cinemanice.presentation.base;
 
+import android.content.Context;
 import android.content.res.Resources;
 import android.os.Build;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.TypedValue;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 
 public class BaseActivity extends AppCompatActivity {
 
@@ -33,4 +35,12 @@ public class BaseActivity extends AppCompatActivity {
     }
 
 
+    public void setKeyboardVisibility(boolean show) {
+        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        if(show){
+            imm.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
+        }else{
+            imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),0);
+        }
+    }
 }

@@ -77,7 +77,7 @@ public class App extends MultiDexApplication {
 
         setDefaultConfig();
 
-        ImageCache.Build();
+        //ImageCache.Build();
 
         mPreference = new CinemaNicePreference(this);
 
