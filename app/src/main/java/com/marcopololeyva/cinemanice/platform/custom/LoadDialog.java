@@ -17,6 +17,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.marcopololeyva.cinemanice.R;
+import com.marcopololeyva.cinemanice.platform.monitor.LogMon;
 
 public class LoadDialog  extends DialogFragment {
 
@@ -70,7 +71,7 @@ public class LoadDialog  extends DialogFragment {
             ft.add(this, tag);
             ft.commitAllowingStateLoss();
         } catch (IllegalStateException e) {
-            e.printStackTrace();
+            LogMon.Log(e,this.getClass().getSimpleName() + "-" + new Throwable().getStackTrace()[0].getMethodName());
         }
     }
 

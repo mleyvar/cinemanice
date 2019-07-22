@@ -3,7 +3,7 @@ package com.marcopololeyva.cinemanice.data.api;
 
 import android.util.Log;
 
-import static com.marcopololeyva.cinemanice.constant.Constant.BASE_URL;
+import static com.marcopololeyva.cinemanice.constant.ConstantService.BASE_URL;
 
 public class ApiConnect {
 

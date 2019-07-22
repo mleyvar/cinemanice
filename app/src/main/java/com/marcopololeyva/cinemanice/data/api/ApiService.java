@@ -10,10 +10,10 @@ import retrofit2.http.GET;
 import retrofit2.http.Headers;
 import retrofit2.http.Query;
 
-import static com.marcopololeyva.cinemanice.constant.Constant.SERVICE_POPULAR;
-import static com.marcopololeyva.cinemanice.constant.Constant.SERVICE_SEARCH;
-import static com.marcopololeyva.cinemanice.constant.Constant.SERVICE_TOP_RATED;
-import static com.marcopololeyva.cinemanice.constant.Constant.SERVICE_UPCOMING;
+import static com.marcopololeyva.cinemanice.constant.ConstantService.SERVICE_POPULAR;
+import static com.marcopololeyva.cinemanice.constant.ConstantService.SERVICE_SEARCH;
+import static com.marcopololeyva.cinemanice.constant.ConstantService.SERVICE_TOP_RATED;
+import static com.marcopololeyva.cinemanice.constant.ConstantService.SERVICE_UPCOMING;
 
 public interface ApiService {
 

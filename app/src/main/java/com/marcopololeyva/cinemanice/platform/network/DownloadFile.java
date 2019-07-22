@@ -4,6 +4,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 import com.marcopololeyva.cinemanice.data.repository.DataRepository;
+import com.marcopololeyva.cinemanice.platform.monitor.LogMon;
 import com.marcopololeyva.cinemanice.root.App;
 import com.marcopololeyva.cinemanice.util.converter.ConverterGen;
 import java.io.IOException;
@@ -68,14 +69,8 @@ public class DownloadFile implements Runnable {
             InputStream is=connection.getInputStream();
             bitmap = ConverterGen.convertInputStreamToArrayBytes(is);
 
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-            bitmap=null;
-        } catch (IOException e) {
-            e.printStackTrace();
-            bitmap=null;
         } catch (Exception e) {
-            e.printStackTrace();
+            LogMon.Log(e,this.getClass().getSimpleName() + "-" + new Throwable().getStackTrace()[0].getMethodName());
             bitmap=null;
         }finally {
             return bitmap;

@@ -1,7 +1,6 @@
 package com.marcopololeyva.cinemanice.platform.di;
 
 import com.marcopololeyva.cinemanice.presentation.base.BaseActivity;
-import com.marcopololeyva.cinemanice.presentation.base.BaseFragment;
 import com.marcopololeyva.cinemanice.presentation.home.view.HomeActivity;
 import com.marcopololeyva.cinemanice.presentation.moviehome.view.PopularFragment;
 import com.marcopololeyva.cinemanice.presentation.splash.view.SplashActivity;
@@ -18,7 +17,6 @@ public interface CinemaNiceComponent {
 
     void inject(BaseActivity baseActivity);
 
-    void inject(BaseFragment baseFragment);
 
     void inject(PopularFragment popularFragment);
 

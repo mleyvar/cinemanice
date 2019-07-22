@@ -10,7 +10,7 @@ import com.marcopololeyva.cinemanice.model.response.UpComingResponse;
 import io.reactivex.Observable;
 import io.reactivex.Single;
 
-import static com.marcopololeyva.cinemanice.constant.Constant.API_KEY;
+import static com.marcopololeyva.cinemanice.constant.ConstantService.API_KEY;
 
 public class PopularRemote {
 

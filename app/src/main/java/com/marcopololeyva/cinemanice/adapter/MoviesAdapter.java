@@ -28,7 +28,7 @@ import com.marcopololeyva.cinemanice.platform.network.Conexion;
 
 import java.util.List;
 
-import static com.marcopololeyva.cinemanice.constant.Constant.BASE_IMAGE_URL;
+import static com.marcopololeyva.cinemanice.constant.ConstantService.BASE_IMAGE_URL;
 
 public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder> {
 

@@ -37,7 +37,7 @@ import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
 import io.reactivex.subjects.PublishSubject;
 
-import static com.marcopololeyva.cinemanice.constant.Constant.BASE_IMAGE_URL;
+import static com.marcopololeyva.cinemanice.constant.ConstantService.BASE_IMAGE_URL;
 import static com.marcopololeyva.cinemanice.constant.Constant.ERROR_GENERAL;
 import static com.marcopololeyva.cinemanice.constant.Constant.ERROR_MESSAGE_RESPONSE;
 import static com.marcopololeyva.cinemanice.constant.Constant.ERROR_MOVIES_NOT_FOUND;
