@@ -215,6 +215,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0fa202a5-6a49-421d-9147-74c61185ea0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/src/develop/java/com/marcopololeyva/cinemanice/constant/ConstantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/develop/java/com/marcopololeyva/cinemanice/constant/ConstantService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -417,7 +419,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/ContactsAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/preference/AlphaPreference.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/cache/ImageCache.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/TopRatedPresenter.java" />
@@ -468,6 +469,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/LoadDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/DownloadFile.java" />
         <option value="$PROJECT_DIR$/app/src/develop/java/com/marcopololeyva/cinemanice/constant/ConstantService.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -477,7 +479,7 @@
     <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <hideEmptyPackages AndroidView="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
@@ -781,14 +783,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///zAndroidSDK/sources/android-28/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
