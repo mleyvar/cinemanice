@@ -213,7 +213,10 @@
     <last-search-timestamp>1563810743975</last-search-timestamp>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa202a5-6a49-421d-9147-74c61185ea0e" name="Default Changelist" comment="" />
+    <list default="true" id="0fa202a5-6a49-421d-9147-74c61185ea0e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,14 +245,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/MoviesAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="321">
-              <caret line="139" column="9" lean-forward="true" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+              <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -300,15 +312,6 @@
                 <element signature="e#2010#2011#0" expanded="true" />
                 <element signature="e#2044#2045#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/error/CinemaNiceErrorManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -415,7 +418,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/ContactsAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/data/preference/AlphaPreference.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/cache/ImageCache.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/presentation/moviehome/presenter/TopRatedPresenter.java" />
@@ -466,6 +468,7 @@
         <option value="$PROJECT_DIR$/app/src/develop/java/com/marcopololeyva/cinemanice/constant/ConstantService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/custom/LoadDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/platform/network/DownloadFile.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -475,7 +478,7 @@
     <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <hideEmptyPackages AndroidView="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
@@ -972,56 +975,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="production" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cinemanice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cinemanice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cinemanice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cinemanice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cinemanice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cinemanice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="marcopololeyva" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cinemanice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cinemanice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="marcopololeyva" type="462c0819:PsiDirectoryNode" />
-              <item name="cinemanice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cinemanice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cinemanice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="marcopololeyva" type="462c0819:PsiDirectoryNode" />
-              <item name="cinemanice" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1156,9 +1109,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4969819" visible="true" weight="0.22222222" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4969819" visible="true" weight="0.22222222" />
       <window_info id="Structure" order="2" sideWeight="0.5005417" side_tool="true" weight="0.22222222" />
       <window_info id="Favorites" order="3" sideWeight="0.5016251" side_tool="true" weight="0.22222222" />
       <window_info id="Build Variants" order="4" sideWeight="0.5030181" side_tool="true" visible="true" weight="0.22222222" />
@@ -1170,7 +1124,7 @@
       <window_info anchor="bottom" id="Run" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.46153846" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.46153846" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32975295" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.31744313" />
@@ -1186,14 +1140,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///zAndroidSDK/sources/android-28/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -1599,10 +1545,17 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcopololeyva/cinemanice/adapter/MoviesAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
-          <caret line="139" column="9" lean-forward="true" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
