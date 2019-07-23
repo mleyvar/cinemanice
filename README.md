@@ -83,9 +83,9 @@ Util:				Paquete para clases de utileria de uso común para el proyecto. Clases 
 
 
 
-PRESENTATION 				DOMAIN                DATA
+PRESENTATION 				    DOMAIN                           DATA
 
-   View -----> Presenter------>Model (Interactor)----> Remote / Local
+   View -----> Presenter------>       Model (Interactor)---->           Remote / Local
 
 
 
