@@ -55,7 +55,7 @@ Para la inyección de referencias de vista se usa ButterKnife
 
 Se usa Glide para descargar la imagen e incorporarla al ImageView control.
 
-Para la descarga de imágenes se usa HttpURLConnection pero en clases Runnable que después se implementan con ThreadPoolExecutor. La idea es permitir descarga de archivos múltiples al mismo tiempo y maneja la respuesta de las descargas a través del callback del Handler.
+Para la descarga de imágenes se usa HttpURLConnection pero en clases que extienden de Runnable que después se implementan con ThreadPoolExecutor. La idea es permitir descarga de archivos múltiples de forma simultanea maneja la respuesta de las descargas a través del callback del Handler.
 
 
 # Esta es la descripción de las clases:
@@ -84,6 +84,7 @@ Util:				Paquete para clases de utileria de uso común para el proyecto. Clases 
 
 
 PRESENTATION 				DOMAIN                DATA
+
    View -----> Presenter------>Model (Interactor)----> Remote / Local
 
 
